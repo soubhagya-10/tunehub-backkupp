@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Home</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/adminhome.css}">
+</head>
+<body>
+    <div class="center">
+        <h1>Admin Home</h1>
+
+        <div class="form-container">
+            <form action="newsong">
+                <input type="submit" value="ADD SONGS">
+            </form>
+
+            <form action="viewsongs">
+                <input type="submit" value="VIEW SONGS">
+            </form>
+
+            <form action="createplaylists">
+                <input type="submit" value="CREATE PLAYLIST">
+            </form>
+
+            <form action="viewplaylists">
+                <input type="submit" value="VIEW PLAYLISTS">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

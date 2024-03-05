@@ -1,0 +1,23 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #80ffff;
+    margin: 0;
+}
+
+.center {
+    text-align: center;
+    margin-top: 20vh; /* Adjust as needed for vertical centering */
+}
+
+p {
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Optional: Add some responsive styles */
+@media screen and (max-width: 600px) {
+    p {
+        font-size: 18px;
+    }
+}

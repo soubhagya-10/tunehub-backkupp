@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #804040;
+    margin: 0;
+    background-image: url("display1.jpg");
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+}
+
+.center {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    color: #8000ff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #000000;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #80ffff;
+}
+tbody tr:nth-child(even) {
+    background-color: #80ffff;
+}
+
+.play-button {
+    background-color: blue; /* Blue color for the play button */
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.play-button span {
+    font-size: 20px; /* Adjust the size of the play symbol */
+}
+
+.play-button:hover {
+    background-color: red; /* Darker blue on hover */
+}
+
+/* Optional: Add some responsive styles */
+@media screen and (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TuneHub</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/login.css}">
+</head>
+<body>
+<div class="center">
+    <form action="validate" method="post">
+        <h2>USER LOGIN:</h2>
+        
+        <label>Email:</label>
+        <input type="email" name="email"><br><br>
+
+        <label>Password:</label>
+        <input type="password" name="password">
+        
+        <input type="submit" value="LOGIN">
+
+        <!-- Add a "Forgot Password" link -->
+        <a href="/forgot-password">Forgot Password?</a>
+    </form>
+</div>
+</body>
+</html>
